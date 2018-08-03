@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <Header />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MoviesList />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
+import MoviesList from './components/MoviesList.vue'
 
 export default {
   name: 'app',
@@ -16,7 +16,7 @@ export default {
     };
   },
   components: {
-    HelloWorld,
+    MoviesList,
     Header
   }
 }
